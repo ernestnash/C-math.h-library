@@ -1,5 +1,5 @@
 //Scientific Computing.
-//library functions.
+//library functions---> "math.h"
 
 
 #include<stdio.h>
@@ -10,7 +10,7 @@
 
 int main(){
 	double x = 20.5;
-	double z, y=5.0, b=0.22,k;
+	double z, y=5.0, b=0.22;
 	
 //	converting to radian
 	z = (x*PIE)/180;
@@ -27,9 +27,11 @@ int main(){
 	
 	printf("the exp(20.5)= %lf\n", exp(z));
 	
-	//converting to degrees
+	
 	y= acos(b)*180/PIE;
-		
+	
+//	k = (y*180)/PIE;
+	
 	printf("the inverse of cos(0.22)= %lf\n", y);
 	
 	printf("the exp(20.5)= %lf\n", exp(z));
