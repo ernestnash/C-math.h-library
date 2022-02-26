@@ -58,7 +58,7 @@ void a ()
 	
 	radian = (M_PI)/180;
 	answer = radian * cos(x);
-	printf("the cos of x = %d",answer);
+	printf("the cos of x = %lf",answer);
 }
 
 void b ()
@@ -68,7 +68,7 @@ void b ()
 	scanf("%d",&x);
 	
 	answer = acos(x)*180/M_PI;
-	printf("the inverse of sin(x) = %d",answer);
+	printf("the inverse of sin(x) = %lf",answer);
 }
 
 void c ()
