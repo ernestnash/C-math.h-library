@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+	char name[6]={'N','a','s','h','o','n'};
+	
+	int i;
+	
+	printf("the values of the array are; \n"); 
+	
+	for(i=0; i<6; i++){
+		
+		printf("%c\n", salary[i]);
+	}
+}
